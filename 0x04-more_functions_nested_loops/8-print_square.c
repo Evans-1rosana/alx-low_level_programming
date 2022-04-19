@@ -20,9 +20,7 @@ for (k = 0; k < size; k++)
 _putchar (35);
 }
 _putchar ('\n');
-
 }
-
 }
 
 else
