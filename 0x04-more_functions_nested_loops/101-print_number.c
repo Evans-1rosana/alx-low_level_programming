@@ -4,7 +4,6 @@
  * @n : integer to be printed
  * Return: Always 0. (Sucess)
  */ 
-
 void print_number(int n)
 {
 unsigned int x;
@@ -20,7 +19,6 @@ else
 {
 x = n;
 }
-
 if (x / 10)
 {
 print_number(x / 10);
