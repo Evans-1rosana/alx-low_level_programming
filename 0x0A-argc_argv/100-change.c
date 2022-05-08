@@ -4,7 +4,7 @@
  * main - prints the minimum number of coins to make change for a given amount
  * @argc: arguement count
  * @argv: array of pointers to arguement strings
- * Return: number of coins or 
+ * Return: number of coins or
  */
 int main(int argc, char *argv[])
 {
