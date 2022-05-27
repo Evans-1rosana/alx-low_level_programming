@@ -5,18 +5,18 @@
  * listint_len - returns the number of elements in a linked list `listint_t`.
  * @h: linked list
  *
- * Return: number of elements
+ * Return: number of node
  */
 
 size_t listint_len(const listint_t *h)
 {
-	size_t nbr_element = 0;
-	const listint_t *current = h;
+	size_t num = 0;
 
-	while (current != NULL)
+	while (h)
 	{
-		current = current->next;
-		nbr_element++;
+		num++;
+		h = h->next;
 	}
-	return(nbr_elements);
+	return (num);
 }
+
